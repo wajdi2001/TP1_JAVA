@@ -1,4 +1,4 @@
-package ex1;
+package TP1_Java.CompteRendu.ex1;
 
 public class Boite <T>{
 

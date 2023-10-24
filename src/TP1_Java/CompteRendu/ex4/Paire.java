@@ -1,4 +1,4 @@
-package ex4;
+package TP1_Java.CompteRendu.ex4;
 
 public class Paire<T, U> {
     private T premier;

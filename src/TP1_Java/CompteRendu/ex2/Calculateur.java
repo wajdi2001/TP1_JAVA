@@ -1,4 +1,4 @@
-package ex2;
+package TP1_Java.CompteRendu.ex2;
 
 public class Calculateur {
     public static <T > double somme(T[] tableau) {

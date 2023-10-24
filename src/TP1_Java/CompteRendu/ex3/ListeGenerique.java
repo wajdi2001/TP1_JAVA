@@ -1,4 +1,4 @@
-package ex3;
+package TP1_Java.CompteRendu.ex3;
 
 import java.util.ArrayList;
 

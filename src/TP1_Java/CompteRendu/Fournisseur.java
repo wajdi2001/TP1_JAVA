@@ -1,4 +1,4 @@
-package CompteRendu;
+package TP1_Java.CompteRendu;
 
 import java.util.ArrayList;
 import java.util.List;

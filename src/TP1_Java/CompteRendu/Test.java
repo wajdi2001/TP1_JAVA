@@ -1,4 +1,4 @@
-package CompteRendu;
+package TP1_Java.CompteRendu;
 
 public class Test {
     public static void main(String[] args) {
