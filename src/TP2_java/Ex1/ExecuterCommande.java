@@ -15,10 +15,6 @@ public class ExecuterCommande {
             }
             System.out.println(p.exitValue());
 
-
-
-
-
         } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
 
