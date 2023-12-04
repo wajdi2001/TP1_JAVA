@@ -12,17 +12,13 @@ public class Producer extends  Thread{
           List<Character> message;
 
           public Producer(List<Character> message){
-
               this.message=message;
-
           }
+
+
           synchronized void  produce()
-        {
+             {
 
-                message.add('x');
-            System.out.println(message);
-
-            notify();
             while(message.size() == MAX_SIZE) {
                 try {
                     wait();
@@ -30,10 +26,16 @@ public class Producer extends  Thread{
                     throw new RuntimeException(e);
                 }
             }
+            message.add('x');
+            System.out.println("Produced: "+message);
+           notify();
         }
+
+
+
         @Override
         public void run() {
-            while (true)
+
              produce();
         }
 }
